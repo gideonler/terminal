@@ -64,34 +64,34 @@ export const linkedin = async (args: string[]): Promise<string> => {
 };
 
 // Search
-export const google = async (args: string[]): Promise<string> => {
-  window.open(`https://google.com/search?q=${args.join(' ')}`);
-  return `Searching google for ${args.join(' ')}...`;
-};
+// export const google = async (args: string[]): Promise<string> => {
+//   window.open(`https://google.com/search?q=${args.join(' ')}`);
+//   return `Searching google for ${args.join(' ')}...`;
+// };
 
-export const duckduckgo = async (args: string[]): Promise<string> => {
-  window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
-  return `Searching duckduckgo for ${args.join(' ')}...`;
-};
+// export const duckduckgo = async (args: string[]): Promise<string> => {
+//   window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
+//   return `Searching duckduckgo for ${args.join(' ')}...`;
+// };
 
-export const bing = async (args: string[]): Promise<string> => {
-  window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
-};
+// export const bing = async (args: string[]): Promise<string> => {
+//   window.open(`https://bing.com/search?q=${args.join(' ')}`);
+//   return `Wow, really? You are using bing for ${args.join(' ')}?`;
+// };
 
-export const reddit = async (args: string[]): Promise<string> => {
-  window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
-  return `Searching reddit for ${args.join(' ')}...`;
-};
+// export const reddit = async (args: string[]): Promise<string> => {
+//   window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
+//   return `Searching reddit for ${args.join(' ')}...`;
+// };
 
 // Typical linux commands
-export const echo = async (args: string[]): Promise<string> => {
-  return args.join(' ');
-};
+// export const echo = async (args: string[]): Promise<string> => {
+//   return args.join(' ');
+// };
 
-export const whoami = async (args: string[]): Promise<string> => {
-  return `${config.ps1_username}`;
-};
+// export const whoami = async (args: string[]): Promise<string> => {
+//   return `${config.ps1_username}`;
+// };
 
 export const ls = async (args: string[]): Promise<string> => {
   return `a
@@ -107,23 +107,23 @@ export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-export const vi = async (args: string[]): Promise<string> => {
-  return `woah, you still use 'vi'? just try 'vim'.`;
-};
+// export const vi = async (args: string[]): Promise<string> => {
+//   return `woah, you still use 'vi'? just try 'vim'.`;
+// };
 
-export const vim = async (args: string[]): Promise<string> => {
-  return `'vim' is so outdated. how about 'nvim'?`;
-};
+// export const vim = async (args: string[]): Promise<string> => {
+//   return `'vim' is so outdated. how about 'nvim'?`;
+// };
 
-export const nvim = async (args: string[]): Promise<string> => {
-  return `'nvim'? too fancy. why not 'emacs'?`;
-};
+// export const nvim = async (args: string[]): Promise<string> => {
+//   return `'nvim'? too fancy. why not 'emacs'?`;
+// };
 
-export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
-};
+// export const emacs = async (args?: string[]): Promise<string> => {
+//   return `you know what? just use vscode.`;
+// };
 
-export const sudo = async (args?: string[]): Promise<string> => {
+export const rick = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
 };
@@ -131,6 +131,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
+My name is...
 
   ░██████╗░██╗██████╗░███████╗░█████╗░███╗░░██╗  ██╗░░░░░███████╗██████╗░
   ██╔════╝░██║██╔══██╗██╔════╝██╔══██╗████╗░██║  ██║░░░░░██╔════╝██╔══██╗
@@ -139,7 +140,7 @@ export const banner = (args?: string[]): string => {
   ╚██████╔╝██║██████╔╝███████╗╚█████╔╝██║░╚███║  ███████╗███████╗██║░░██║
   ░╚═════╝░╚═╝╚═════╝░╚══════╝░╚════╝░╚═╝░░╚══╝  ╚══════╝╚══════╝╚═╝░░╚═╝
                                                                                   
-
+Currently an undergrad @ Singapore Management University, studying Information Systems. Do feel free to look around! 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display a summary of my contacts, as well as my other pages.
 
