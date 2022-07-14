@@ -140,7 +140,9 @@ My name is...
   ╚██████╔╝██║██████╔╝███████╗╚█████╔╝██║░╚███║  ███████╗███████╗██║░░██║
   ░╚═════╝░╚═╝╚═════╝░╚══════╝░╚════╝░╚═╝░░╚══╝  ╚══════╝╚══════╝╚═╝░░╚═╝
                                                                                   
-Currently an undergrad @ Singapore Management University, studying Information Systems. Do feel free to look around! 
+Currently an undergrad @ Singapore Management University, studying Information Systems. 
+During my free time I enjoy exploring new technologies and building side projects! Feel free to play around with this terminal :D 
+
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display a summary of my contacts, as well as my other pages.
 
