@@ -35,7 +35,7 @@ Welcome to my website!
 More about me:
 'display' - short summary.
 'resume' - my latest resume.
-'readme' - my github readme.`;
+'skills' - List of tech skills i've developed over the years`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -93,18 +93,44 @@ export const linkedin = async (args: string[]): Promise<string> => {
 //   return `${config.ps1_username}`;
 // };
 
-export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
-};
+// export const ls = async (args: string[]): Promise<string> => {
+//   return `a
+// bunch
+// of
+// fake
+// directories`;
+// };
 
 
 
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
+};
+
+
+export const skills = async (args: string[]): Promise<string> => {
+  return `
+  Programming Languages:
+  - Java
+  - Python
+  - SQL
+
+  Web Development:
+  - Static Site Generators
+  - Hugo
+  - SpringBoot
+  - Next.js
+
+  Data stuff:
+  - AWS Glue (ETL)
+  - Pandas
+  - Excel
+
+  Others
+  - Perfromance Testing
+  - Apache JMeter
+  - QA Testing
+  `
 };
 
 // export const vi = async (args: string[]): Promise<string> => {
@@ -124,8 +150,13 @@ export const date = async (args: string[]): Promise<string> => {
 // };
 
 export const rick = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
+  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); 
   return `Rickkkkkkkkkk `;
+};
+
+export const personal = async (args?: string[]): Promise<string> => {
+  window.open('https://gideonler.vercel.app/', '_blank'); // Redirect to my home page
+  return `You are now leaving the terminal to Gideon's webpage. `;
 };
 
 // Banner
@@ -145,6 +176,8 @@ During my free time I enjoy exploring new technologies and building side project
 
 Type 'help' to see the list of available commands.
 Type 'display' to display a summary of my contacts, as well as my other pages.
+Type 'about' to view an overview of me.
+Also, checkout my other webpage over ${personal}
 
 `;
 };
