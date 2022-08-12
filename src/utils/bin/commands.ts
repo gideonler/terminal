@@ -130,6 +130,7 @@ export const skills = async (args: string[]): Promise<string> => {
   - Perfromance Testing
   - Apache JMeter
   - QA Testing
+  - Git
   `
 };
 
