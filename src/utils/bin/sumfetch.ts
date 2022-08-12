@@ -4,7 +4,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 
 
     return `
-           ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄                  sumfetch
+           ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄                  Success!
         ▄▓▓▀ ▄▓▓▀▓▓▓▀▓▓▄ ▀▀▓▓▄              -----------
       ▓▓▀  ▄▓▀   ▐▓▓  ▀▓▓    ▓▓▄             ABOUT
     ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓            ${config.name}

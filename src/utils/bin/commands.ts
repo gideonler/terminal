@@ -18,7 +18,7 @@ export const help = async (args: string[]): Promise<string> => {
 \n${c}\n
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display a summary of my contacts, as well as my other pages.
+Type 'display' to display a summary of my contacts, as well as my other pages.
 `;
 };
 
@@ -33,7 +33,7 @@ export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
 More about me:
-'sumfetch' - short summary.
+'display' - short summary.
 'resume' - my latest resume.
 'readme' - my github readme.`;
 };
@@ -125,7 +125,7 @@ export const date = async (args: string[]): Promise<string> => {
 
 export const rick = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
-  return `Permission denied: with little power comes... no responsibility? `;
+  return `Rickkkkkkkkkk `;
 };
 
 // Banner
@@ -144,7 +144,7 @@ Currently an undergrad @ Singapore Management University, studying Information S
 During my free time I enjoy exploring new technologies and building side projects! Feel free to play around with this terminal :D 
 
 Type 'help' to see the list of available commands.
-Type 'sumfetch' to display a summary of my contacts, as well as my other pages.
+Type 'display' to display a summary of my contacts, as well as my other pages.
 
 `;
 };
