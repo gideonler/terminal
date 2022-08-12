@@ -178,7 +178,7 @@ During my free time I enjoy exploring new technologies and building side project
 Type 'help' to see the list of available commands.
 Type 'display' to display a summary of my contacts, as well as my other pages.
 Type 'about' to view an overview of me.
-Also, checkout my other webpage over <u><a class = "text-light-blue dark:text-dark-blue underline" href="${personal}" target="_blank">here</a></u>.
+Also, checkout my other webpage over <u><a class = "text-light-blue dark:text-dark-blue underline" href="https://gideonler.vercel.app/" target="_blank">here</a></u>.
 
 `;
 };
