@@ -22,6 +22,18 @@ export const getWeather = async (city: string) => {
   }
 };
 
+export const getCoindesk = async () => {
+  const { data } = await axios.get(
+    'https://api.coindesk.com/v1/bpi/currentprice.json',
+  );
+  return {
+    bitcoin: `The current price of ${data.chartName} is $${data.bpi.USD.rate} ${data.bpi.USD.code}. 
+
+${data.disclaimer}.
+    `,
+  };
+};
+
 // export const getQuote = async () => {
 //   const { data } = await axios.get('https://api.quotable.io/random');
 //   return {
